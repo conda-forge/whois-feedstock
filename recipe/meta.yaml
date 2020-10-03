@@ -1,5 +1,5 @@
 {% set name = "whois" %}
-{% set version = "5.5.6" %}
+{% set version = "5.5.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: http://ftp.debian.org/debian/pool/main/w/whois/whois_{{ version }}.tar.xz
-  sha256: cba1e9000c60950f46a96ba23e8eea8aee240a2b8560e63a6bfb33f9034af14e
+  sha256: 3efa700dbf38d127c31b21af3176cd6e5a69f96a056be60ac1dcd13df7717393
   patches:
     - Makefile.patch  # [osx]
 
@@ -36,7 +36,7 @@ about:
   license: GPL-2.0
   license_family: GPL
   license_file: COPYING
-  summary: 'Intelligent WHOIS client'
+  summary: Intelligent WHOIS client
   dev_url: https://github.com/rfc1036/whois
 
 extra:
