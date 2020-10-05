@@ -9,7 +9,9 @@ channel_targets:
 docker_image:
 - condaforge/linux-anvil-comp7
 libiconv:
-- '1.15'
+- '1.16'
 pin_run_as_build:
   libiconv:
     max_pin: x.x
+target_platform:
+- linux-64
