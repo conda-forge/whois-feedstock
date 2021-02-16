@@ -5,11 +5,11 @@ Home: https://github.com/rfc1036/whois
 
 Package license: GPL-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/whois-feedstock/blob/master/LICENSE.txt)
 
 Summary: Intelligent WHOIS client
 
-
+Development: https://github.com/rfc1036/whois
 
 Current build status
 ====================
