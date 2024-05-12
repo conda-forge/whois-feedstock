@@ -1,11 +1,11 @@
-About whois
-===========
+About whois-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/whois-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rfc1036/whois
 
 Package license: GPL-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/whois-feedstock/blob/main/LICENSE.txt)
 
 Summary: Intelligent WHOIS client
 
