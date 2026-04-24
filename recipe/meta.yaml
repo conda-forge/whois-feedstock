@@ -1,5 +1,5 @@
 {% set name = "whois" %}
-{% set version = "5.5.15" %}
+{% set version = "5.5.17" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: http://ftp.debian.org/debian/pool/main/w/whois/whois_{{ version }}.tar.xz
-  sha256: 16951471874750cd735405cc995d659f8b45005f6dfe4eabf71e8b4f59f8aeb8
+  sha256: effe86e6d75101c2f33a0b3d2d948ab54aa57893fedc3b9983ffd55e881e2521
   patches:
     - Makefile.patch  # [osx]
 
